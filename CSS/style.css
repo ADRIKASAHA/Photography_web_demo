@@ -1,0 +1,11 @@
+.neon-background {
+    background-color: rgb(146, 220, 126); /* Change this to your desired dark background color */
+    color: #bdd3e6; /* Neon green color */
+    /* text-shadow: 0 0 10px rgb(174, 210, 216), 0 0 20px rgba(176, 206, 176, 0.8), 0 0 30px rgba(0, 255, 0, 0.8);
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.8), 0 0 20px rgba(0, 255, 0, 0.8), 0 0 30px rgba(0, 255, 0, 0.8); */
+    /* Add more text-shadow and box-shadow layers for a stronger effect */
+}
+ .custom-font {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    }
