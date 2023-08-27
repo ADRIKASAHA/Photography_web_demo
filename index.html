@@ -26,11 +26,11 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#product">Profile</a>
+            <a class="nav-link" href="#Profile">Profile</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#aboutus">About us</a>
-          </li>
+            <a class="nav-link" href="about.html">About us</a>
+          </li> 
           <li class="nav-item">
             <a class="nav-link" href="#contactus">Contact us</a>
           </li>
@@ -40,6 +40,7 @@
         </ul>
       </div>
     </div>
+    
   </nav>
   <!-- nav end -->
 
@@ -203,7 +204,7 @@
       <div class="col">
         <div class="card shadow-lg border border-0">
 
-          <button class="text-decoration-none border-0"><img src="Asset/pic/3.jpeg" class="card-img-top rounded-3"
+          <button class="text-decoration-none border-0 "><img src="Asset/pic/3.jpeg" class="card-img-top rounded-3 "
               data-bs-toggle="modal" data-bs-target="#myModal2" alt="PIC 2"></button>
 
 
@@ -221,17 +222,17 @@
                 <!-- Modal body -->
                 <div class="modal-body p-4">
 
-                  A young fox cub explores a field of flowers, its curiosity and playfulness evident in its movements.
+                  <p>A young fox cub explores a field of flowers, its curiosity and playfulness evident in its movements.
                   The soft pastel colors of the flowers contrast with the cub's dark fur, creating a charming and
                   heartwarming scene.
 
                   The image captures the innocence and wonder of youth, as well as the beauty of nature. It is a
                   reminder that even in the midst of a busy world, there is always time to stop and appreciate the
-                  simple things in life.
+                  simple things in life.</p>
 
-                  The photographer of the image you sent is Isabel van Veen. She is a 23-year-old nurse from the
+                  <p class="pt-3"> Photographer of the image  is Isabel van Veen. She is a 23-year-old nurse from the
                   Netherlands who has a passion for photography, especially nature and wildlife photography. You can
-                  find her work on her website and on social media.
+                  find her work on her website and on social media.</p>
 
 
                 </div>
@@ -250,8 +251,37 @@
       <!--3-->
       <div class="col">
         <div class="card shadow-lg border border-0">
-          <button class="text-decoration-none border-0"><img src="Asset/pic/4.jpeg" class="card-img-top rounded-3"
+          <button class="text-decoration-none border-0"><img src="Asset/pic/4.jpeg" class="card-img-top rounded-3" data-bs-toggle="modal" data-bs-target="#myModal3"
               alt="TOP PIC"></button>
+
+              <!-- The Modal -->
+          <div class="modal fade" id="myModal3">
+            <div class="modal-dialog modal-dialog modal-dialog-centered ">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title text-xxl-start text-center">Mushroom in the Forest</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body p-4">
+
+                  <p>This close-up photograph of a mushroom shows its intricate details. The mushroom is sitting on the forest floor, and its cap is covered in small bumps. The stem is thin and smooth, and it disappears into the leaf litter. The overall effect is one of beauty and mystery.</p>
+
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+              
         </div>
       </div>
 
@@ -457,7 +487,8 @@
             <input type="email" class="form-control py-3" id="exampleFormControlInput1" placeholder="name@example.com">
           </div>
           <div class=" d-grid gap-2 mb-3 ">
-            <button class="btn btn-success p-3" type="button">Submit</button>
+            <button class="btn btn-success p-3" id="alertButton" type="button">Submit</button>
+           
           </div>
         </form>
       </div>
@@ -472,10 +503,15 @@
   </footer>
   <!-- footer end-->
 
-
+  <script>
+    document.getElementById("alertButton").addEventListener("click", function() {
+        alert(" Thank you !");
+    });
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"></scrip>
+
 </body>
 
 </html>
